@@ -10,7 +10,7 @@
     <!-- JS -->
     <script src="script.js"></script>
 
-    <!-- Google font -->
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
@@ -18,14 +18,140 @@
     <title>UTS</title>
 </head>
 <body>
-    <h1>Muhamad Iqbal Fauzi</h1>
     <!-- Header Section -->
     <header>
-
+        <nav class="navbar">
+            <div class="logo">
+                <img src="./src/rimuru.jpg" alt="rimuru">
+            </div>
+            
+            <ul class="list">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://wa.me/6285162890411" target="_blank">Contact</a></li>
+                <li><a href="https://miqbalf2021.github.io/CV/cv.html" target="_blank">About</a></li>
+                <li><a href="#" target="_blank">Docs</a></li>
+            </ul>
+        </nav>
+        
     </header>
 
     <!-- Main Section -->
-    <main></main>
+    <main>
+        <!-- konten 1 -->
+        <div class="content1">
+            <div class="captions">
+                <h1>Bring technology is in your hands</h1>
+                <p>This technology will bring  new things and experiences to your businnes and company</p>
+                <a href="./buy.html" target="_blank" class="buy">Buy</a>
+                <a href="./see.html" class="see">See all product</a>
+            </div>
+            <div class="image">
+                <img src="./src/Screenshot 2023-10-24 182943.png" alt="tech">
+            </div>
+        </div>
+
+        <!-- konten 2 -->
+        <div class="content2">
+            <div class="card1">
+                <img src="./src/keyboard-svgrepo-com.svg" alt="keyboard">
+                <h3>Easy to implement</h3>
+                <p>Easy to implement in your company with powerfull platform</p>
+            </div>
+            <div class="card2">
+                <img src="./src/send-svgrepo-com.svg" alt="send">
+                <h3>Optimize systems</h3>
+                <p>More than 1000 company using this product</p>
+            </div>
+        </div>
+
+        <!-- konten 3 -->
+        <div class="content3">
+            <div class="keyboard">
+                <img src="./src/keyboard.png" alt="Keyboard">
+            </div>
+            
+            <div class="text">
+              <h1>Now, Set up and grow your company</h1>
+              <p>We offer many products that optimize your company, setup now and grow up your business</p>
+              <a href="./see.html" >Demo</a>
+            </div>
+        </div>
+
+        <!-- konten 4 -->
+        <div>
+            <form action="" class="input1">
+              
+                <div class="rows">
+                    <div >
+                        <label for="nama">Nama</label>
+                        <br>
+                        <input class="input" type="text" id="nama" required>
+                    </div>
+        
+                    <div>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input class="input" type="email" id="email" name="email">
+                    </div>
+                </div>
+                    
+
+                <div class="column">
+                    <div class="pilih">
+                        <label for="tujuan">Role</label>
+                        <select id="">
+                        <option value="bali">Designer</option>
+                        <option value="bandung">Front end</option>
+                        <option value="jakarta">Back end</option>
+                        <option value="lombok">System Analyst</option>
+                        <option value="yogyakarta">Data Analyst</option>
+                    </select>
+                    </div>
+        
+                    <div>
+                        <label  for="message">Message</label>
+                        <br>
+                        <input class="input" class="pesan" type="text" id="Message" required>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+
+        <!-- konten 5 -->
+        <div class="checkbox">
+            <h1>I choose to send information about:</h1>
+            <form>
+                <label>
+                    <input type="checkbox" name="answer" value="A">
+                    Marketing
+                </label><br>
+        
+                <label>
+                    <input type="checkbox" name="answer" value="B">
+                    News & Updates
+                </label><br>
+        
+                <label>
+                    <input type="checkbox" name="answer" value="C">
+                    Product updates
+                </label><br>
+        
+                <label>
+                    <input type="checkbox" name="answer" value="D">
+                    None
+                </label><br>
+        
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        
+            
+        
+    </main>
+
+
+        
 
     <!-- Footer Section -->
     <Footer></Footer>
