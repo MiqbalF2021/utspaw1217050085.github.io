@@ -229,11 +229,50 @@ label {
 
 /* footer */
 footer {
-  background-color: rgb(34, 34, 57);
+  background-color: rgb(80, 80, 109);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .sosmed {
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.sosmed ul {
+  list-style: none;
   display: flex;
   justify-content: center;
-  gap: 10px;
+  
+}
+
+.sosmed img{
+  width: 40%;
+  
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  gap: 400px;
+}
+
+.about ul {
+text-align: left;
+}
+
+.about li {
+  list-style: none;
+  font-size: 17px;
+  color: white;
+}
+
+.about a {
+text-decoration: none;
+color: white;
+}
+
+.about a:hover {
+  color: rgb(0, 0, 0);
 }
