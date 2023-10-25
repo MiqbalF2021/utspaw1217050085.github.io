@@ -47,20 +47,78 @@ pada bagian ini juga tidak beda jauh dengan section sebelumnya menggunakan tag y
 
 ## CSS
 
-CSS digunakan untuk mengatur tampilan halaman HTML. Berikut adalah beberapa komponen yang ditentukan dalam CSS:
-
 Fitur utama CSS yang saya gunakan pada landing page ini adalah Flexbox.
-Flexbox ini sangat berguna untuk layouting dan sangan mudah car penggunaannya.
+Flexbox ini sangat berguna untuk layouting dan sangan mudah cara penggunaannya.
 
-1. **Styling Body**: Menerapkan warna latar belakang dan font untuk seluruh halaman.
+Berikut Penjelasan Lengkapnya :
 
-2. **Navbar Styling**: Mengatur tampilan navbar, termasuk latar belakang, ukuran logo, daftar tautan, dan efek hover.
+1. **Selektor Universal (\*):**
 
-3. **Styling untuk Konten 1, 2, 3, 4, 5**: Mengatur tampilan untuk semua bagian konten pada halaman web serta posisi layoutnya menggunakan Flexbox.
+   - Menetapkan `padding` dan `margin` ke 0 untuk semua elemen HTML di halaman. Ini digunakan untuk menghilangkan padding dan margin bawaan dari beberapa elemen HTML, sehingga tampilan halaman menjadi lebih konsisten.
 
-4. **Formulir Styling**: Mengatur tampilan elemen-elemen dalam formulir, seperti label, input teks, kotak pilihan, dan tombol submit.
+2. **Styling Body:**
 
-5. **Footer Styling**: Mengatur tampilan bagian footer, termasuk warna latar belakang, susunan tautan sosial media, dan tautan tambahan.
+   - Memberikan latar belakang dengan warna "bisque" pada elemen `<body>`.
+   - Mengatur `font-family` ke 'Quicksand' atau font sans-serif untuk seluruh teks dalam elemen `<body>`. Font ini akan digunakan secara default oleh elemen-elemen dalam body.
+
+3. **Styling Navbar:**
+
+   - Memberikan elemen dengan kelas `.navbar` beberapa properti styling seperti `display: flex` untuk mengatur elemen-elemen anak secara horizontal.
+   - Mengatur latar belakang dengan warna putih (`background-color: white`).
+   - Mengatur `align-items` menjadi "center" untuk mengatur elemen anak secara vertikal tengah.
+   - Memberikan `padding` sebesar 2 piksel.
+
+4. **Styling Logo:**
+
+   - Mengatur gambar dalam elemen dengan kelas `.logo` agar memiliki lebar maksimum 7%.
+
+5. **Styling List:**
+
+   - Mengatur elemen dengan kelas `.list` agar tampil sebagai elemen-flex dengan jarak antara elemen anak sebesar 70 piksel (`gap: 70px`).
+   - Menambahkan `padding-right` sebesar 50 piksel untuk mengatur jarak dari tepi kanan.
+
+6. **Styling Link di List:**
+
+   - Mengatur tautan dalam elemen dengan kelas `.list` agar tidak memiliki gaya bawaan (list-style: none).
+   - Menghilangkan dekorasi tautan dengan `text-decoration: none`.
+   - Mengatur warna teks menjadi hitam (`color: black`).
+   - Ketika tautan dihover (`:hover`), mengubah warna teks menjadi biru (`color: blue`).
+
+7. **Styling Content 1, Content 2, Content 3, Content 4:**
+
+   - Setiap bagian konten memiliki elemen dengan kelas `.content1`, `.content2`, `.content3`, dan `.content4`, yang masing-masing memiliki pengaturan khusus terkait tata letak dan paddingnya.
+   - Gambar dalam elemen dengan kelas `.image` dan `.card1`, `.card2` diberi lebar maksimum 30%.
+   - Judul (h1) dan paragraf (p) diatur ukuran fontnya.
+
+8. **Styling Tombol "Buy" dan "See":**
+
+   - Mengatur tombol dengan kelas `.buy` agar memiliki warna latar belakang tertentu, teks putih, dan border-radius (untuk sudut yang lebih lembut).
+   - Ketika tombol dihover (`:hover`), mengubah warna latar belakang.
+
+9. **Styling Content 5 (Checkbox):**
+
+   - Memberikan padding sebesar 100 piksel pada elemen dengan kelas `.checkbox`.
+
+10. **Styling Input dan Label:**
+
+    - Menerapkan beberapa gaya pada elemen label dan input. Lebar input diberikan sebesar 500px.
+
+11. **Styling Footer:**
+
+    - Memberikan elemen footer dengan latar belakang berwarna tertentu.
+    - Mengatur elemen footer agar tampil sebagai elemen-flex dengan arah kolom (`.flex-direction: column`).
+    - Mengatur teks di footer menjadi rata tengah (`text-align: center`).
+    - Memberikan padding bawah sebesar 40px.
+
+12. **Styling Sosial Media Icons:**
+
+    - Mengatur elemen dengan kelas `.sosmed` agar memiliki margin di sebelah kanan dan kiri sebesar 500px.
+    - Mengatur gambar agar memiliki lebar maksimum 40% dari lebar parent.
+
+13. **Styling Bagian "About" di Footer:**
+    - Mengatur elemen dengan kelas `.about` agar memiliki jarak antara elemen anak sebesar 400px (`gap: 400px`).
+    - Mengatur ukuran font dan warna teks pada elemen dengan kelas `.about`.
+    - Ketika tautan dihover (`:hover`), mengubah warna teks.
 
 ## JavaScript
 
