@@ -7,10 +7,16 @@
 body {
   background-color: bisque;
 
- 
+  font-family: 'Quicksand', sans-serif;
 }
 
 /* Navbar */
+.navbar {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  padding: 2px;
+}
 
 .logo img {
   width: 7%;
