@@ -1,5 +1,7 @@
 # Dokumentasi Landing Page:
 
+Website Landing page ini saya buat menggunakan html, css dan js murni tanpa framework dengan menambahkan Google font
+
 ## HTML
 
 Pada bagian HTML ini saya membuat 3 section terpisah yaitu **`<header>`**, **`<main>`** dan **`<footer>`**. Pada section **`<header>`** digunakan untuk navbar, sedangkan pada section **`<main>`** digunakan untuk konten utamanya yang dibagi lagi kedalam beberapa bagian dan pada bagian **`<footer>`** digunakan untuk informasi lainnya seperti sosial media.
