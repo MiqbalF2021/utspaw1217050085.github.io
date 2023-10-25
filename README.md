@@ -1,4 +1,4 @@
-Dokumentasi untuk komponen-komponen pada HTML, CSS, dan JavaScript yang Anda berikan adalah sebagai berikut:
+## Dokumentasi Landing Page:
 
 ### HTML
 
