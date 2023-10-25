@@ -7,11 +7,11 @@ Pada bagian HTML ini saya membuat 3 section terpisah yaitu **`<header>`**, **`<m
 ### 1. **`<Header>`**: Pada section Ini saya gunakan untuk Navbar, Berikut beberapa tag yang saya gunakan pada section Header ini
 
 - **`<nav>`**: sebagai pembungkus kedua pada keseluruhan elemen di navbar
-     - **`<div>`**: saya menggunakan div sebagai pembungkus lagi yang digunakan untuk memisahkan gambar/logo dan list
-     - **`<ul>`**: untuk membuat list
-     - **`<li>`**: adalah tag list
-     - **`<img>`**: untuk menambahkan image
-     - **`<a>`**: sebagai tag yang didalamnya mengandung link yang menjurus ke halaman lain
+  - **`<div>`**: saya menggunakan div sebagai pembungkus lagi yang digunakan untuk memisahkan gambar/logo dan list
+  - **`<ul>`**: untuk membuat list
+  - **`<li>`**: adalah tag list
+  - **`<img>`**: untuk menambahkan image
+  - **`<a>`**: sebagai tag yang didalamnya mengandung link yang menjurus ke halaman lain
 
 Saya juga menggunakan atribut class ntuk memberikan satu atau lebih nilai identifikasi (class name) kepada elemen HTML. Ini digunakan untuk mengelompokkan elemen-elemen yang memiliki karakteristik atau gaya yang sama, sehingga saya dapat menerapkan gaya atau perilaku tertentu pada semua elemen dengan class yang sama.
 
@@ -45,7 +45,7 @@ untuk tag yang saya gunakan tidak berbeda jauh dengan tag yang digunakan pada se
 
 pada bagian ini juga tidak beda jauh dengan section sebelumnya menggunakan tag yang sama.
 
-### CSS
+## CSS
 
 CSS digunakan untuk mengatur tampilan halaman HTML. Berikut adalah beberapa komponen yang ditentukan dalam CSS:
 
@@ -62,7 +62,7 @@ Flexbox ini sangat berguna untuk layouting dan sangan mudah car penggunaannya.
 
 5. **Footer Styling**: Mengatur tampilan bagian footer, termasuk warna latar belakang, susunan tautan sosial media, dan tautan tambahan.
 
-### JavaScript
+## JavaScript
 
 JavaScript digunakan untuk menambahkan interaksi ke halaman web. Berikut adalah penjelasan singkat untuk kode JavaScript yang diberikan:
 
