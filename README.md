@@ -2,7 +2,7 @@
 
 ## HTML
 
-Pada bagian HTML ini saya membuat 3 section terpisah yaitu **`<header>`**, **`<main>`** dan **`<footer>`**. Pada section **`<header>`** digunakan untuk navbar, sedangkan pada section **`<main>`** digunakan untuk konten utamanya yang dibagi lagi kedalam beberapa bagian
+Pada bagian HTML ini saya membuat 3 section terpisah yaitu **`<header>`**, **`<main>`** dan **`<footer>`**. Pada section **`<header>`** digunakan untuk navbar, sedangkan pada section **`<main>`** digunakan untuk konten utamanya yang dibagi lagi kedalam beberapa bagian dan pada bagian **`<footer>`** digunakan untuk informasi lainnya seperti sosial media.
 
 ### 1. **`<Header>`**: Pada section Ini saya gunakan untuk Navbar, Berikut beberapa tag yang saya gunakan pada section Header ini
 
